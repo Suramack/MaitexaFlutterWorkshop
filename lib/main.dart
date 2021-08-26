@@ -14,8 +14,10 @@ class Myapp extends StatelessWidget {
           title: Text('Hello World'),
         ),
         body: Center(
-          child: Text("Hello World"),
-        ),
+            child: Image(
+          image: NetworkImage(
+              'https://media-exp1.licdn.com/dms/image/C510BAQFjze8l2QeBgw/company-logo_200_200/0/1583313431335?e=2159024400&v=beta&t=36uO5cwBWa92_bc6YYAKjpJJ1NJpSfJEhVNxTHx8UZw'),
+        )),
       ),
     ));
   }
